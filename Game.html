@@ -1,0 +1,35 @@
+<html> 
+      
+
+    <body> 
+    <canvas id="myCanvas" width="1200" height="800" style="border:1px solid #000000;">Browser not supported</canvas>
+    <img id="img" src="Coding.gif" style="display: none">    
+    
+<script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+     var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    window.onload = function() {
+  var canvas = document.getElementById("myCanvas");
+  var ctx = canvas.getContext("2d");
+  var img = document.getElementById("img");
+  ctx.drawImage(img, 0, 0);
+    ctx.beginPath();
+    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+    ctx.fillStyle = "#FFFFFF";
+    ctx.fill();
+    ctx.fillStyle = "#FF0000";
+    ctx.fillRect(0, 0, 75, 75);
+    ctx.arc(150, 100, 40, 100, 50 * Math.PI);
+    ctx.fillStyle = "#FFFFFF";
+};
+    
+</script>
+        
+  </body>  
+</html>
